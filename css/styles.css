@@ -2,10 +2,6 @@ body {
     margin: 0;
 }
 
-/* * {
-    outline: 3px solid red;
-} */
-
 div {
     background-color: black;
     display: block;
