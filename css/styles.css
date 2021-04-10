@@ -2,9 +2,12 @@ body {
     margin: 0;
 }
 
+/* * {
+    outline: 3px solid red;
+} */
+
 div {
     background-color: black;
-    display: block;
     width: 100%;
 }
 
@@ -26,18 +29,21 @@ img {
 }
 
 .company-name {
+    font-style: italic;
     color: white;
     font-size: 25px;
     display: inline;
     width: 80px;
 }
 
-button {
-    width: 100px;
-    height: 50px;
+a {
     border-radius: 25px;
+    text-decoration-line: none;
+    padding: 6px;
+    border: 3px solid black;
     margin: 10px;
     background-color: yellow;
+    color: black;
 }
 
 .urus-background {
@@ -91,10 +97,11 @@ button {
 }
 
 .box-4, .box-5 {
-    padding-top: 40px;
-    max-width: 800px;
-    height: 200px;
     display: inline-block;
+    box-sizing: border-box;
+    height: 200px;
+    width: 50%;
+    border: 0;
 }
 
 .box-4 {
